@@ -1,3 +1,6 @@
+// Sample Looping Program #1
+// Print the series 1 2 4 7 11 16 22 29 37 46
+
 #include <iostream>
 using namespace std;
 

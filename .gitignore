@@ -1,0 +1,5 @@
+# Ignore BB Deliverables
+bb_deliverables/
+
+# Ignore VS Code settings
+.vscode/
