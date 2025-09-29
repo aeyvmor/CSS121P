@@ -22,6 +22,7 @@ int main() {
     cout << "[2] Division Counter\n";
     cout << "[3] Factorial Calculator\n";
     cout << "[4] Exit\n";
+    cout << string(36, '=') << "\n";
 
     cin >> choice;
 
@@ -96,6 +97,8 @@ int main() {
             cout << "[2] Division Counter\n";
             cout << "[3] Factorial Calculator\n";
             cout << "[4] Exit\n";
+
+            cout << string(36, '=') << "\n";
 
             cin >> choice;
 
