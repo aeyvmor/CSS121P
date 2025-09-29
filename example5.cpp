@@ -82,6 +82,11 @@ int main() {
         }
         cout << "Do you want to choose another option? (y/n): ";
         cin >> again;
+        while (again != 'y' && again != 'Y' && again != 'n' && again != 'N') {
+                cout << "Invalid input. Please enter 'y' or 'n': ";
+                cin >> again;
+        }
+
         if (again == 'y' || again == 'Y') {
             cout << string(15, '=');
             cout << " MENU ";
